@@ -13,13 +13,14 @@
 </head>
 <body>
 <h1>Menajer Defteri — Gizlilik Politikası / Privacy Policy</h1>
-<small>Yürürlük / Effective date: 16 Temmuz / July 2026 · Geliştirici / Developer: Berk (Pratikhane) · İletişim / Contact: <a href="mailto:berkyuo2@gmail.com">berkyuo2@gmail.com</a></small>
+<small>Yürürlük / Effective date: 10 Ağustos / August 2026 · Geliştirici / Developer: Berk (Pratikhane) · İletişim / Contact: <a href="mailto:berkyuo2@gmail.com">berkyuo2@gmail.com</a></small>
 <nav class="lang" aria-label="Dil / Language"><a href="#tr">Türkçe</a><a href="#en">English</a></nav>
 
 <section id="tr" lang="tr">
   <h2>1. Kapsam ve kısa özet</h2>
   <p>Bu politika Menajer Defteri'nin v1.4 reklamlı, uygulama içi satın almasız Android sürümünü açıklar. Oyun bir Menajer Defteri hesabı oluşturmaz. Kariyer kaydı varsayılan olarak cihazda tutulur. Uygulama isteğe bağlı ödüllü reklam sunmak için Google AdMob ve Google User Messaging Platform (UMP) kullanır; ayrıca kullanıcı açarsa Google Play Games Saved Games üzerinden isteğe bağlı Bulut Koruması sunacak şekilde yapılandırılmıştır.</p>
   <p>Üretim sürümündeki kredi paketleri pasif <b>“YAKINDA”</b> vitrinidir. Google Play Billing, gerçek para ile satın alma ve ödeme verisi işleme bu sürümde yoktur.</p>
+  <p>10 Ağustos 2026'dan itibaren uygulama ayrıca isteğe bağlı, <b>varsayılan olarak kapalı</b> bir ölçüm ve çökme raporlama katmanı içerir (Firebase Analytics, Crashlytics, Remote Config). Ayrıntılar için 4. bölüme bakınız.</p>
 
   <h2>2. Cihazda tutulan oyun verileri</h2>
   <p>Menajer ve kulüp adı, kadro, maçlar, lig, görevler, krediler, timer'lar, ayarlar ve kayıt yedekleri uygulamanın cihaz içi deposunda tutulur. Android işletim sistemi cloud backup ve cihaz aktarımı bu uygulama için kapalıdır. Uygulamayı kaldırmak veya Android ayarlarından uygulama verisini temizlemek bu yerel verileri siler.</p>
@@ -36,6 +37,7 @@
   </ul>
   <p>Google bu verileri reklam sunumu, analiz ve sahtekârlık önleme, güvenlik ve uyumluluk amaçlarıyla işleyebilir; aktarım sırasında TLS kullanıldığını belirtir. Ayrıntılar için <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Google Mobile Ads veri açıklamasına</a> ve <a href="https://policies.google.com/privacy">Google Gizlilik Politikası'na</a> bakabilirsiniz.</p>
   <p>Uygun bölgelerde reklam gizlilik tercihlerinizi uygulamadaki <b>Ayarlar → Gizlilik Tercihleri</b> yolundan yeniden açabilirsiniz. Advertising ID'yi Android cihaz ayarlarından sıfırlayabilir veya silebilirsiniz.</p>
+  <p>10 Ağustos 2026'dan itibaren uygulama reklam içerik derecesi üst sınırını <b>Teen (ergen)</b> olarak ayarlar; yetişkin dereceli reklam içeriği talep edilmez.</p>
 
   <h2>4. Uzaktan servisler ve seçiminiz</h2>
   <h3>Play Games Bulut Koruması</h3>
@@ -43,13 +45,16 @@
   <p>Eşitlenen kariyer snapshot'ı; sizin yazdığınız menajer ve kulüp adı, kadro, maç/lig/görev ilerlemesi, aktif süreler, ayarlar, sezon/hafta ve kayıt zamanı gibi oyun durumunu içerir ve Play Games hesabınızla ilişkili olarak Google sunucularında tutulur. Menajer veya kulüp alanına gerçek bir kişi ya da kurumu tanımlayan metin yazarsanız bu metin de snapshot'a girer. Premium/satın alınmış kredi cüzdanı, satın alma veya Billing tokenleri, ödeme verileri ve reklam kimliği bulut payload'ına eklenmez.</p>
   <p>Yerel A/B kayıtları ana kaynak olmaya ve oyun çevrimdışı çalışmaya devam eder. Bulut eşitleme yalnız başarılı yerel kayıttan sonra yapılır; ağ veya Play Games hatası yerel kaydı engellemez. Yerel ve bulut sürümleri farklıysa kulüp, sezon, hafta ve kayıt zamanı özetleri gösterilir; siz seçmeden hiçbir kayıt diğerinin üzerine yazılmaz ve kaybeden kopya salt-okunur kurtarma kaydı olarak cihazda korunur.</p>
   <h3>Firebase ölçümü ve çökme raporu</h3>
-  <p>Bu v1.4 sürüm yapılandırmasında Firebase proje yapılandırması yoktur. Firebase Analytics, Crashlytics ve Remote Config yetenekleri kapalıdır; ürün olayı veya çökme raporu Firebase'e gönderilmez. Bu servisler gelecekte etkinleştirilirse Analytics ve çökme raporu ayrı, varsayılan kapalı kullanıcı izinleri gerektirecek ve bu politika yayın öncesinde güncellenecektir.</p>
+  <p><b>10 Ağustos 2026 itibarıyla bu bölüm güncellenmiştir.</b> Uygulama artık Firebase Analytics (Google Analytics 4), Firebase Crashlytics ve Firebase Remote Config içerecek şekilde yapılandırılmıştır. Bu servisler <b>varsayılan olarak kapalıdır</b> ve yalnız Ayarlar ekranından açık onay verdiğinizde çalışır. Onay vermezseniz tek bir olay bile gönderilmez; onayınızı aynı ekrandan geri aldığınızda toplama durur ve ölçüm kimliği sıfırlanır.</p>
+  <p>Onay verdiğinizde gönderilenler, sabit ve kapalı bir listeyle sınırlıdır: kariyer oluşturma, öğretici adımları, maç başlangıç/bitiş, zamanlayıcı başlangıç/bitiş, reklam teklifi/gösterimi/ödülü/hatası, kayıt kurtarma, bulut çakışması/geri yükleme, oturum özeti ve arayüz özelliklerinin kullanımı (maç öncesi etki tahtası, maç içi kritik an kararı, antrenman önerisi, ilk maç koçluğu). Her olay en fazla sekiz alan taşır ve her alan önceden tanımlı kısa değerlerden birini alır. Listede olmayan bir olay veya değer <b>reddedilir</b>. Menajer/kulüp/oyuncu adı, kayıt dosyası içeriği, serbest metin, ödeme tokeni, cihaz kimliği ve reklam kimliği bu ölçüme <b>hiçbir koşulda dâhil edilmez</b>; Firebase Analytics'in reklam kimliği toplaması uygulama düzeyinde kapatılmıştır.</p>
+  <p>Crashlytics, uygulama çökerse çökme yığınını, o andaki uygulama durumunu, cihaz modeli/işletim sistemi gibi teknik bilgileri ve kurulum başına üretilen bir Crashlytics kurulum kimliğini toplar; amacı yalnız hatayı bulup düzeltmektir. Remote Config yalnız ülke kodu, dil, saat dilimi, platform/işletim sistemi sürümü ve uygulama kimliği gibi teknik alanları kullanır ve uygulamada sadece bir güvenlik anahtarı (özellik kapatma) taşır. Bu verilerin işlenmesinde Google hizmet sağlayıcı olarak hareket eder; veriler reklam hedefleme için satılmaz veya üçüncü taraflara pazarlama amacıyla verilmez.</p>
 
   <h2>5. Destek ve kullanıcının seçtiği paylaşım</h2>
   <p>Uygulama destek raporunu otomatik göndermez. “Kopyala” veya Android paylaşım menüsünü seçerseniz yalnız uygulama sürümü, kaynak özeti ve güvenli hata kodlarından oluşan raporu seçtiğiniz hedefe siz gönderirsiniz. Rapor; menajer/kulüp adı, save içeriği, reklam kimliği veya ödeme tokeni içermez. Destek e-postasına ayrıca yazdığınız bilgiler sorunu yanıtlamak için kullanılır; ihtiyaç kalmadığında silinir, yasal bir saklama yükümlülüğü varsa gereken süre boyunca tutulabilir.</p>
 
   <h2>6. Saklama, silme ve güvenlik</h2>
   <p>Yerel oyun verisi siz temizleyene veya uygulamayı kaldırana kadar cihazda kalır. Menajer Defteri uygulama hesabı olmadığı için uygulama hesabı silme süreci yoktur. Bulut Koruması'nı kapatmak gelecekteki eşitlemeyi durdurur, ancak Play Games'e daha önce yazılmış snapshot'ı otomatik silmez; uygulamayı kaldırmak veya yerel veriyi temizlemek de bu bulut kopyasını silmez. Play Games verisini belirli bir oyun için veya tüm profilinizle birlikte Google hesabınızdan <a href="https://support.google.com/googleplay/answer/9130646?hl=tr">Google Play Games veri kontrollerini</a> kullanarak silebilirsiniz. Google'ın Play Games ve reklam verileri için saklama ve silme kuralları Google'ın kendi politikalarına tabidir. AdMob verilerinin aktarımında Google TLS kullandığını belirtir.</p>
+  <p>Ölçüm onayını geri aldığınızda toplama durur ve uygulamanın ölçüm kimliği sıfırlanır; bu andan sonra gönderilen yeni veri yoktur. Daha önce gönderilmiş ölçüm veya çökme kayıtlarının silinmesini istiyorsanız <a href="mailto:berkyuo2@gmail.com">berkyuo2@gmail.com</a> adresine yazın. Firebase Analytics verileri ayrıca saklama süresi dolduğunda otomatik olarak silinir.</p>
 
   <h2>7. Çocuklar ve hedef kitle</h2>
   <p>Menajer Defteri yalnız 18 yaş ve üzerindeki kullanıcılar için tasarlanmıştır; çocukları hedeflemez ve Google Play Families programına katılmaz.</p>
@@ -64,6 +69,7 @@
   <h2>1. Scope and summary</h2>
   <p>This policy covers the v1.4 ad-supported Android release of Menajer Defteri, which does not offer in-app purchases. The game does not create a Menajer Defteri account. Career saves remain on the device by default. The app uses Google AdMob and the Google User Messaging Platform (UMP) to offer optional rewarded ads, and it is configured to offer optional Cloud Protection through Google Play Games Saved Games when the user enables it.</p>
   <p>Credit packages shown in the production build are disabled <b>“COMING SOON”</b> displays. Google Play Billing, real-money purchases, and payment-data processing are not present in this release.</p>
+  <p>Since 10 August 2026 the app also contains an optional, <b>off-by-default</b> measurement and crash-reporting layer (Firebase Analytics, Crashlytics, Remote Config). See section 4 for details.</p>
 
   <h2>2. Game data stored on the device</h2>
   <p>Manager and club names, squads, matches, leagues, tasks, credits, timers, settings, and save backups are stored in the app's local device storage. Android OS cloud backup and device transfer are disabled for this app. Uninstalling the app or clearing its data in Android settings deletes this local data.</p>
@@ -80,6 +86,7 @@
   </ul>
   <p>Google may process this data for advertising, analytics, fraud prevention, security, and compliance, and states that it is encrypted in transit using TLS. See the <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Google Mobile Ads data disclosure</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
   <p>Where required, you can reopen ad privacy choices from <b>Settings → Privacy Options</b> in the app. You can reset or delete the Advertising ID in Android device settings.</p>
+  <p>Since 10 August 2026 the app also sets a maximum ad content rating of <b>Teen</b>, so mature-rated ad creatives are not requested.</p>
 
   <h2>4. Remote services and your choices</h2>
   <h3>Play Games Cloud Protection</h3>
@@ -87,13 +94,16 @@
   <p>The synchronized career snapshot contains game state such as the manager and club names you enter, squad, match/league/task progress, active timers, settings, season/week, and save time, and is stored on Google's servers in association with your Play Games account. If you enter text that identifies a real person or organization in the manager or club fields, that text is included in the snapshot. Premium or purchased-credit wallets, purchase or Billing tokens, payment data, and advertising identifiers are excluded from the cloud payload.</p>
   <p>Local A/B saves remain authoritative and the game continues to work offline. Cloud sync only runs after a successful local save, and a network or Play Games failure does not block the local save. If local and cloud versions differ, the app shows club, season, week, and save-time summaries; neither copy overwrites the other until you choose, and the losing copy is retained on the device as a read-only recovery record.</p>
   <h3>Firebase measurement and crash reporting</h3>
-  <p>This v1.4 release configuration has no Firebase project configuration. Firebase Analytics, Crashlytics, and Remote Config capabilities are disabled, and no product event or crash report is sent to Firebase. If these services are enabled later, Analytics and crash reporting will require separate, default-off user choices, and this policy will be updated before release.</p>
+  <p><b>Updated on 10 August 2026.</b> The app is now configured with Firebase Analytics (Google Analytics 4), Firebase Crashlytics, and Firebase Remote Config. These services are <b>off by default</b> and run only after you give explicit consent on the Settings screen. Without consent not a single event is sent; withdrawing consent on the same screen stops collection and resets the measurement identifier.</p>
+  <p>When you consent, what is sent is limited to a fixed, closed list: career creation, tutorial steps, match start/end, timer start/end, ad offer/impression/reward/error, save recovery, cloud conflict/restore, session summary, and usage of the interface features (pre-match impact board, in-match critical-moment decision, training suggestion, first-match coaching). Each event carries at most eight fields, and every field takes one of a predefined set of short values. An event or value outside the list is <b>rejected</b>. Manager/club/player names, save-file contents, free text, payment tokens, device identifiers, and advertising identifiers are <b>never</b> included in this measurement; Firebase Analytics advertising-ID collection is disabled at the app level.</p>
+  <p>If the app crashes, Crashlytics collects the crash stack, the application state at that moment, technical details such as device model and operating system, and a per-installation Crashlytics installation identifier, solely to find and fix the fault. Remote Config uses only technical fields such as country code, language, time zone, platform/OS version, and app identifier, and in this app carries only a safety switch (feature kill-switch). Google acts as a service provider when processing this data; the data is not sold for ad targeting and is not given to third parties for marketing.</p>
 
   <h2>5. Support and user-directed sharing</h2>
   <p>The app does not automatically send support reports. If you choose “Copy” or the Android share menu, you decide where to send a report containing only the app version, source summary, and safe error codes. The report excludes manager/club names, save contents, advertising identifiers, and payment tokens. Information you voluntarily add to a support email is used to answer the issue and is deleted when no longer needed, unless retention is required by law.</p>
 
   <h2>6. Retention, deletion, and security</h2>
   <p>Local game data remains on the device until you clear it or uninstall the app. There is no Menajer Defteri app account, so no app-account deletion process applies. Turning off Cloud Protection stops future synchronization but does not automatically delete a snapshot already stored in Play Games; uninstalling the app or clearing local data also does not delete that cloud copy. You can delete Play Games data for this game, or your whole Play Games profile, from your Google account using <a href="https://support.google.com/googleplay/answer/9130646?hl=en">Google's Play Games data controls</a>. Google's retention and deletion rules apply to Play Games and advertising data handled by Google. Google states that Mobile Ads SDK data is protected in transit using TLS.</p>
+  <p>Withdrawing measurement consent stops collection and resets the app's measurement identifier, so no new data is sent from that point on. If you want previously sent measurement or crash records deleted, write to <a href="mailto:berkyuo2@gmail.com">berkyuo2@gmail.com</a>. Firebase Analytics data is also deleted automatically once its retention period expires.</p>
 
   <h2>7. Children and target audience</h2>
   <p>Menajer Defteri is designed only for users aged 18 and over. It does not target children and does not participate in the Google Play Families program.</p>
